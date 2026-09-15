@@ -6,6 +6,7 @@ rust-version = "1.93"
 
 [lib]
 name = "cosmic"
+crate-type = ["lib", "cdylib"]
 
 [features]
 default = [
